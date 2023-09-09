@@ -1,0 +1,63 @@
+ .contato-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    
+} 
+
+ .enderecos-container {
+   margin-bottom: 45px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   margin-left: auto;
+   margin-right: auto;
+} 
+
+.enderecos-container h3{
+    font-size: 27px;
+}
+
+.enderecos-container span {
+    font-size: 25px;
+}
+
+ @media (max-width: 900px) {
+    .enderecos-container {
+        
+        width: 250px;
+    } 
+    
+    .orcamento-container {
+        padding: 0 20px;
+    }
+} 
+
+
+.orcamento-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 45px; 
+}
+
+.orcamento-container button {
+    width: 200px;
+    background-color: rgb(56, 223, 15);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    height: 48px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+hr{
+    width: 100%;
+}
